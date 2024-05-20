@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <button id="meuBotao">Clique em mim</button>
+
+    <script>
+        function exibirMensagem() {
+            alert("Você clicou no botão!");
+        }
+
+        var botao = document.getElementById("meuBotao");
+
+        botao.addEventListener("click", exibirMensagem);
+    </script>
+</body>
+</html>
